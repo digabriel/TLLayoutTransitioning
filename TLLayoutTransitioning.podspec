@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.source_files = 'TLLayoutTransitioning/**/*.{h,m,c}'
-  s.dependency 'AHEasing'
+  s.dependency 'AHEasing', :git => 'https://github.com/warrenm/AHEasing.git', :tag => '1.3.1'
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
   s.requires_arc = true
 end
